@@ -1,0 +1,6 @@
+googletrans==4.0.0rc1
+wikipedia-api==0.8.1
+langdetect==1.0.9
+python-aiml==0.9.3
+requests==2.32.3
+httpx==0.13.3

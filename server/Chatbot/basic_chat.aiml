@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I assist you today?</template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! What can I do for you today?</template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>I'm doing great! How can I help you today?</template>
+    </category>
+
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>You're welcome!</template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>Goodbye! Come back any time.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template>#1$<star/></template>
+    </category>
+
+    <category>
+        <pattern>TELL ME ABOUT *</pattern>
+        <template>#1$<star/></template>
+    </category>
+
+    <category>
+        <pattern>DEFINE CHATBOT</pattern>
+        <template>#0$A chatbot is a computer program that simulates conversation with human users.</template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>#99$Sorry, I didn’t understand that.</template>
+    </category>
+
+    <category>
+    <pattern>ORDER STATUS</pattern>
+    <template>#98$check_order_status</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS YOUR RETURN POLICY</pattern>
+        <template>#0$You can return any item within 30 days of purchase for a full refund.</template>
+    </category>
+
+
+
+
+</aiml>

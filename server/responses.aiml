@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <!-- Basic Greetings -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello, how can I help you today?</template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! What can I do for you today?</template>
+    </category>
+
+    <!-- Bot Identity -->
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is ChatBot, your virtual assistant.</template>
+    </category>
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>I'm ChatBot, a virtual assistant designed to help you with your questions.</template>
+    </category>
+
+    <!-- Help and Support -->
+    <category>
+        <pattern>HOW CAN YOU HELP ME</pattern>
+        <template>I can assist you with information, manage your requests, and guide you through our services.</template>
+    </category>
+    <category>
+        <pattern>I NEED HELP</pattern>
+        <template>Sure, I'm here to help. Please tell me more about what you need.</template>
+    </category>
+
+    <!-- Order Status -->
+    <category>
+        <pattern>CHECK MY ORDER STATUS</pattern>
+        <template>Please provide your order ID to check the status.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE STATUS OF MY ORDER</pattern>
+        <template>To help you with your order status, I need the order ID please.</template>
+    </category>
+
+    <!-- Goodbye -->
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>Goodbye! If you have any more questions, feel free to ask. Have a great day!</template>
+    </category>
+    <category>
+        <pattern>BYE</pattern>
+        <template>Bye! Come back anytime if you have more questions.</template>
+    </category>
+
+    <!-- Fallback for unknown questions -->
+    <category>
+        <pattern>*</pattern>
+        <template>Sorry, I'm not sure how to answer that. Can you ask in a different way?</template>
+    </category>
+
+</aiml>
